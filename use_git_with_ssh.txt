@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/14762034/push-to-github-without-password-using-ssh-key
+git remote set-url origin $(git remote show origin | grep "Fetch URL" | sed s/ *Fetch URL: // | sed s/https://github.com//git@github.com:/)
